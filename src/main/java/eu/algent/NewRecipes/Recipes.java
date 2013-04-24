@@ -81,7 +81,7 @@ public class Recipes {
 
     // Seamless Double Slab(1): shaped, 2 Stone Slab vertically
     private void shapedSeamlessDoubleSlab() {
-        ShapedRecipe recipe = new ShapedRecipe(getItemStackData(Material.DOUBLE_STEP, 1, 6));
+        ShapedRecipe recipe = new ShapedRecipe(getItemStackData(Material.DOUBLE_STEP, 1, 8));
         recipe.shape("o", "o").setIngredient('o', Material.STEP);
         plugin.getServer().addRecipe(recipe);
     }
